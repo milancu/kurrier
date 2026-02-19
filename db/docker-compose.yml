@@ -83,7 +83,7 @@ services:
       - ${REDIS_PORT}:${REDIS_PORT}
 
   typesense:
-    image: typesense/typesense:29.0
+    image: typesense/typesense:27.1
     restart: on-failure
     ports:
       - ${TYPESENSE_PORT}:${TYPESENSE_PORT}
